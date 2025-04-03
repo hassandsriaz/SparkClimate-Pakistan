@@ -1,2 +1,5 @@
-# SparkClimate-Pakistan
-SparkClimate Pakistan is a data-driven initiative leveraging Apache Spark and AWS to process and analyze weather data for improved climate insights. The project integrates real-time weather data ingestion, transformation, and structured storage to facilitate accurate climate analytics.
+# SparkClimate Pakistan
+
+SparkClimate Pakistan is a data processing pipeline designed to improve weather data accessibility and reliability. Built using Apache Spark on AWS EMR, this project automates data ingestion, transformation, and storage to support climate analysis and decision-making.
+
+![pipeline](https://raw.githubusercontent.com/hassandsriaz/SparkClimate-Pakistan/refs/heads/main/Pipeline.png)
