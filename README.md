@@ -4,4 +4,4 @@ SparkClimate Pakistan is a data processing pipeline designed to improve weather 
 
 ![pipeline](https://raw.githubusercontent.com/hassandsriaz/SparkClimate-Pakistan/refs/heads/main/Pipeline.png)
 ![emr](https://raw.githubusercontent.com/hassandsriaz/SparkClimate-Pakistan/refs/heads/main/EMR.png)
-![s3](https://raw.githubusercontent.com/hassandsriaz/SparkClimate-Pakistan/refs/heads/main/EMR.png)
+![s3](https://github.com/hassandsriaz/SparkClimate-Pakistan/blob/main/S3.png?raw=true)
