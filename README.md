@@ -22,7 +22,7 @@ SparkClimate Pakistan is a scalable, automated data pipeline for processing and 
 
 ## Pipeline Overview
 
-![pipeline](https://raw.githubusercontent.com/hassandsriaz/SparkClimate-Pakistan/refs/heads/main/Pipeline.png)
+![pipeline](images/Pipeline.png)
 
 1. **Data Source:**  
    NOAA (Pakistan-specific) weather data.
@@ -38,7 +38,7 @@ SparkClimate Pakistan is a scalable, automated data pipeline for processing and 
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Apache Spark 3.5.2** (PySpark)
 - **AWS EMR 7.5.0**
@@ -48,10 +48,10 @@ SparkClimate Pakistan is a scalable, automated data pipeline for processing and 
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
-![emr](https://raw.githubusercontent.com/hassandsriaz/SparkClimate-Pakistan/refs/heads/main/EMR.png)
-![s3](https://github.com/hassandsriaz/SparkClimate-Pakistan/blob/main/S3.png?raw=true)
+![emr](images/EMR.png)
+![s3](images/S3.png)
 
 - **S3 Buckets:**  
   - `input/` for raw CSV data  
@@ -64,7 +64,7 @@ SparkClimate Pakistan is a scalable, automated data pipeline for processing and 
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 1. **Upload Data:**  
    Place raw NOAA CSV files in your S3 bucket's `input/` folder.
@@ -81,7 +81,7 @@ SparkClimate Pakistan is a scalable, automated data pipeline for processing and 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -102,7 +102,7 @@ SparkClimate Pakistan is a scalable, automated data pipeline for processing and 
 
 ---
 
-## 📈 Example Dashboards
+##  Example Dashboards
 
 - **Average Temperature Trends (1957–2024)**
 - **Rainfall Analysis by Station**
@@ -111,18 +111,18 @@ SparkClimate Pakistan is a scalable, automated data pipeline for processing and 
 
 ---
 
-## 📜 License
+##  License
 
 Licensed under the [Apache 2.0 License](./LICENSE).
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please open issues or submit pull requests for improvements.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 For questions or collaboration, please contact [Hassan D. S. Riaz](https://github.com/hassandsriaz).
