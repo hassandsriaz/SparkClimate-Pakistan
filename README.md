@@ -85,13 +85,19 @@ SparkClimate Pakistan is a scalable, automated data pipeline for processing and 
 
 ```
 .
-├── EMR_ETL.py           # PySpark ETL script
-├── dashboard_final.twb  # Tableau dashboard file
+├── data/
+│   ├── input/               # Local sample/raw data (for dev/testing)
+│   └── output/              # Local processed data (for dev/testing)
+├── scripts/
+│   └── EMR_ETL.py           # PySpark ETL script
+├── dashboards/
+│   └── dashboard_final.twb  # Tableau dashboard file
+├── images/
+│   ├── Pipeline.png         # Pipeline architecture image
+│   ├── EMR.png              # EMR architecture image
+│   └── S3.png               # S3 architecture image
 ├── README.md
 ├── LICENSE
-├── input/               # (S3) Raw data folder
-├── output/              # (S3) Processed data folder
-└── ...
 ```
 
 ---
